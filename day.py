@@ -1,13 +1,13 @@
 def solvePartA(data):
-    pass
+    return
 
 
 def solvePartB(data):
-    pass
+    return
 
 
 if __name__ == '__main__':
-    with open('dayX.txt', 'r') as f:
+    with open('test.txt', 'r') as f:
         data = [line.strip() for line in f.readlines()]
     print(solvePartA(data))
     print(solvePartB(data))
